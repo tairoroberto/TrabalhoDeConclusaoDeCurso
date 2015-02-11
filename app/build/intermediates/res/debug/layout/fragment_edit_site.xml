@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativePaiFragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeFragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/txt_Fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Insira o endereço do seu site" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeFragment1" >
+
+        <EditText
+            android:id="@+id/txt_your_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="meusite.com.br"
+            android:imeOptions="actionDone" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_your_name"
+            android:text="@string/txtBtnSite" />
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/tairo/workspace_AndroidStudio/TrabalhoDeConclusaoDeCurso/app/src/main/res/layout/fragment_edit_site.xml -->

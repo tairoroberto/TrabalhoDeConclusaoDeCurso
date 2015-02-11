@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Trabalho de Conclusão de Curso</string>
+    <string name="sair">Sair</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtInforme">&quot;Arraste e solte para mudar o site&quot;</string>
+    <string name="txtBtnSite">Ok</string>
+    <string name="txtTamanhoFonte">Tamanho da fonte</string>
+    <string name="txtLayoutSelecao">Container</string>
+    <string name="removeItem">Remove</string>
+
+
+    
+</resources>
